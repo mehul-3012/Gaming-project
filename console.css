@@ -1,0 +1,121 @@
+body {
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)) ,url('Images/pexels-simon-trappe-4298306.jpg') !important;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+  }
+  
+  /* Video */
+  .video-container {
+    position: relative;
+  }
+  
+  .video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+  
+  
+
+  /* Cards */
+  .card{
+    border: none !important;
+    background: transparent !important;
+  }
+
+  .card img{
+    height: 100%;
+    width: 100%;
+  }
+
+  .button{
+    display: block !important;
+  }
+
+  /* Xstore */
+  .eXstoreContent{
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+  }
+
+  .eXstoreContent p{
+    width: 30% !important;
+  
+  }
+ .icon{
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  width: 100%;
+ }
+ .IconContent{
+  width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .icon ion-icon{
+  height: 35px;
+  width: 35px;
+ }
+
+/* progress-bar */
+#container {
+  margin: 20px;
+  width: 150px;
+  height: 150px;
+  position: relative;
+}
+#container2 {
+  margin: 20px;
+  width: 150px;
+  height: 150px;
+  position: relative;
+}
+#container3 {
+  margin: 20px;
+  width: 150px;
+  height: 150px;
+  position: relative;
+}
+
+
+ /* Media */
+  @media (max-width: 768px) {
+    .eXstoreContent p{
+      width: 100% !important;
+    }
+    .card{
+      width: 100%;
+    }
+    .Icon{
+      margin:0px ;
+    }
+    #SocialMedia {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+    
+    .Icon {
+      color: white;
+      text-align: center;
+      font-size: 15px;
+      border-radius: 50px;
+      border: 1px solid white;
+      height: 25px;
+      width: 25px;
+      padding-top: 3px;
+    }
+  }

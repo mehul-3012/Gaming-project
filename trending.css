@@ -1,0 +1,32 @@
+body {
+    background-image: url('Images/clear\ image.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+  }
+
+  .owl-carousel .item {
+    height: 300px;
+    width: 250px;
+}
+.owl-slide{
+  padding: 30px;
+}
+
+  .owl-carousel{
+    width: 100% !important;
+   height: 50% !important;
+  }
+  
+
+  #topContent {
+    padding: 20px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+  }
+

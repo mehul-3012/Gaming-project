@@ -1,0 +1,184 @@
+/* GameCategory body */
+/* is body mai check karo mehul yahan image change karni hai background ke liye */
+body{
+  background-image: url('Images/pexels-alex-andrews-5086477.jpg')!important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+  /*Carousel Slider That slide the main slider with some Images and Content*/
+.owl-carousel .item {
+    height: 300px;
+    width: 250px;
+}
+.owl-slide{
+  padding: 30px;
+}
+
+.owl-carousel{
+  width: 100% !important;
+ height: 50% !important;
+}
+.Game-images {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+
+.Game-images img{
+  width: 40%;
+}
+
+.Game-thumbnails {
+  margin-left: 25px;
+  display: block;
+  width: 45%;
+}
+
+.Game-thumbnails h1{
+  margin-left: 20px;
+  margin-top: 15px;
+  color:white
+}
+
+.game-button{
+  margin-left: 0px;
+  margin-top: 15px;
+}
+
+.Game-thumbnails h5{
+  margin-left: 20px;
+  margin-top: 15px;
+  color:white
+}
+
+.Game-thumbnails p{
+  margin-left: 20px;
+  margin-top: 15px; 
+  color:white
+}
+
+.Game-thumbnails img{
+  border: 1px solid;
+  height: 100px;
+  width: 100px;
+  
+}
+
+
+.owl-carousel{
+  background-color:#444;
+  background-color: rgba(37, 32, 32, 0.5);
+}
+
+.Game-thumbnails img{
+  margin-left: 20px;
+}
+
+.Game-thumbnails #img{
+  margin-left: 100px;
+}
+
+.span1{
+  text-decoration: line-through;
+  margin-left: 0px;
+  font-weight: 600;
+  color: white;
+}
+
+.span2{
+  margin-left: 10px;
+  font-size: 25px;
+  color: white;
+}
+
+/* New Sliders */
+.owl-carousel{
+  width: 100%;
+}
+
+/* Media */
+@media (max-width: 768px) {
+  .Game-thumbnails {
+    width: 100%;
+  }
+  .Game-images img {
+    display: none;
+  }
+  .owl-carousel .item {
+    height: 200px;
+    width: 300px;
+}
+.owlSlide-Bg{
+  background-image: url("Images/Assasins\ creed\ HD.jpg");
+  background-size: cover;
+  background-position: center
+}
+}
+
+
+
+@media screen and (max-width: 576px){
+  .owl-carousel{
+    height: 300px;
+    width: 200px;
+  }
+  .Game-thumbnails {
+   width: 100%;
+   margin-left: 0px;
+   padding:0px;
+  }
+
+  .owl-slide{
+    height: 100%;
+    width: 100%;
+  }
+
+  .Game-thumbnails p{
+    font-size: 10px;
+    height: 100%;
+    width: 100%;
+   }
+
+   .Game-thumbnails h1{
+    text-align: center;
+   }
+
+   .Game-thumbnails .game-button{
+    font-size: 15px;
+    width: 250px;
+   }
+
+.owlSlide-Bg{
+  background-image: url("Images/Assasins\ creed\ HD.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.Icon{
+  margin:0px ;
+}
+#SocialMedia {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.Icon {
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  border-radius: 50px;
+  border: 1px solid white;
+  height: 25px;
+  width: 25px;
+  padding-top: 3px;
+}
+
+
+
+}
+
+
+

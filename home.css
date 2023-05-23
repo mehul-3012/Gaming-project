@@ -1,0 +1,318 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* Home Body */
+body {
+  background-image: url(Images/87d24384-6bed-449a-9583-e80765b0e5d3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+/* Naviagtion */
+.navbar-nav {
+  width: 100%;
+  justify-content: end;
+}
+
+.navbar-brand {
+  color: white !important;
+  font-variant: petite-caps;
+}
+
+.navbar-scrolled {
+  background-color: black;
+  background-image: linear-gradient(135deg, #444 50%, #222 50%);
+}
+/* hover effect for navigation links */
+.nav-item .nav-link {
+  color: white !important;
+}
+
+.nav-item .nav-link:hover {
+  color: #969191 !important;
+}
+
+.navbar-nav .nav-link {
+  position: relative;
+  text-decoration: none;
+  color: #969191;
+}
+
+.navbar-nav .nav-link::before {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #969191;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover::before {
+  width: 100%;
+}
+
+/* Carousel*/
+.carouselContent {
+  width: 100%;
+  height: 100%;
+}
+
+ .carousel-caption h4 {
+  font-weight: light;
+}
+
+/* owl carousel */
+.carousel-cell {
+  position: relative;
+}
+
+.carousel-cell::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-cell p {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  padding: 10px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.carousel2 {
+  background: #EEE;
+  width: 70%;
+}
+
+.carousel-cell {
+  width: 50%;
+  height: 200px;
+  margin-right: 10px;
+  background: #8C8;
+  border-radius: 5px;
+  counter-increment: gallery-cell;
+}
+
+.Slider {
+  background-color: #EEE;
+  padding: 25px;
+}
+
+.Slider h4{
+  text-shadow: 5px 5px 10px black;
+}
+
+.carousel-cell p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  color: white;
+}
+
+.Slider h4 {
+  text-align: center;
+  font-weight: normal;
+  font-size: 30px;
+}
+
+.carousel-cell img {
+  height: 100%;
+  width: 100%;
+}
+
+/* One Line Quotes */
+#Quotes {
+  display: inline-flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+#Quotes h3 {
+  color: white;
+}
+
+.poetName {
+  color: #fff;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.poetName:hover {
+  color: #444444;
+  cursor: pointer;
+}
+
+.svgbackground {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+/* Footer */
+.footer {
+  width: 100%;
+  height: 100%;
+  background-color: #222;
+  background-image: linear-gradient(135deg, #444 50%, #222 50%);
+}
+
+.footer h1 {
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-weight: inherit;
+  font-variant: petite-caps;
+}
+
+.footer h6 {
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.footer h6 a {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: large;
+  font-weight: light;
+}
+
+.footer h6 a:hover {
+  color: #444;
+}
+
+#SocialMedia {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.Icon{
+  color: white;
+  text-align: center;
+  font-size: 35px;
+  border-radius: 50px;
+  border: 1px solid white;
+  height: 50px;
+  width: 50px;
+  padding-top: 3px;
+}
+.Icon a{
+  color: white;
+}
+
+.Icon{
+  margin:20px ;
+}
+
+.Icon a:hover {
+
+  color:  #969191;
+}
+
+
+/* Main Content */
+.MainContent {
+  width: 600px;
+}
+
+.MainContent p {
+  font-size: 15px;
+}
+.MainContent .btn{
+  height: 35px;
+}
+.img1 img {
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+}
+/* Media */
+@media (min-width: 1024px) {
+  .img1 img{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+  }
+}
+@media (max-width: 768px) {
+  .carousel {
+    width: 100%;
+  }
+
+  .carousel-cell {
+    width: 60%;
+  }
+
+  #carouselExampleCaptions {
+    height: 100%;
+  }
+  .PQuotes{
+    font-size: 18px;
+    text-align: center;
+  }
+}
+@media (max-width: 576px) {
+  .carousel-cell {
+    width: 100%;
+  }
+
+  .carousel-item img {
+    width: 100%;
+    object-fit: cover;
+    height: 250px;
+  }
+
+  .MainContent p{
+    font-size: 10px;
+  }
+
+  .MainContent .btn{
+    height: 30px;
+    width: 200px;
+    font-size: 10px;
+  }
+
+  .Slider h4 {
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .carousel2 {
+    width: 500px;
+  }
+  .Icon{
+    margin:0px ;
+  }
+  #SocialMedia {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .Icon {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 50px;
+    border: 1px solid white;
+    height: 25px;
+    width: 25px;
+    padding-top: 3px;
+  }
+
+}
